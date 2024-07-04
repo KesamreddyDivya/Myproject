@@ -1,0 +1,78 @@
+.section1 {
+    display: flex;
+}
+.section1 button{
+    background-color: rgb(214, 211, 211);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 211, 211);
+}
+.section1 p {
+    position: absolute;
+    right: 6%;
+    margin-top: 30px;
+}
+.section1 .icon {
+    font-size: 25px;
+    margin-left: 20px;
+    position: absolute;
+    right: 3%;
+    margin-top: 36px;
+}
+.section2 #img4{
+    border-radius: 25px;
+}
+.section2 #img5{
+    border-radius: 25px;
+}
+.section2 #img6{
+    border-radius: 20px;
+}
+.col1,.col2,.col3,.col4,.col5,.col6{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    align-items: center;
+    margin-top: 70px;
+}
+.section2 .col-8{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+#img1,#img2,#img3,#img5,#img6 {
+    margin-bottom: 10px;
+}
+#img4 {
+    margin-bottom: 14px;
+}
+#input {
+    margin-top: 40px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid yellow;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius : 15px;
+    margin-left: -23px;
+}
+  
+input[type=text]:focus {
+    border: 3px solid yellow;
+    border-radius : 15px;
+}
+
+.r1 {
+    margin-top: 25px;
+}
+.c1 {
+    margin-left: -20px;
+}
+.c2 {
+    margin-left: 70px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yandex.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <section class="section1">
+        <div class="div1">
+            <img src="images/logo.png" width="100">
+        </div>
+        <div class="div2">
+            <p><button>Log in</button></p>
+        </div>
+        <div class="div3">
+            <i class="fa fa-navicon icon"></i>
+        </div>
+    </section>
+    <div class="container">
+        <section class="section2">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="col1">
+                        <img src="images/images.jpg" width="70" id="img1">
+                        <span>Images</span>
+                    </div>
+                    <div class="col2">
+                        <img src="images/Video.svg" width="70" id="img2">
+                        <span>Video</span>
+                    </div>
+                    <div class="col3">
+                        <img src="images/map.jpg" width="70" id="img3">
+                        <span>Maps</span>
+                    </div>
+                    <div class="col4">
+                        <img src="images/translate.jpg" width="65" id="img4">
+                        <span>Translate</span>
+                    </div>
+                    <div class="col5">
+                        <img src="images/weather1.png" width="65" id="img5">
+                        <span> Weather</span>
+                    </div>
+                    <div class="col6">
+                        <img src="images/box.png" width="65" id="img6" style="height: 65px;">
+                        <span>Mail</span>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <input class="form controlform-control form-control-lg" type="text" placeholder="Finds everything" id="input">
+                </div>
+            </div>
+            <div class="row r1">
+                <div class="col-2"></div>
+                <div class="col-1 c1">
+                    <img src="images/cloud.png" width="30">30<sup>o</sup></div>
+                    <div class="col-5 c2"></div>
+                <div class="col-1">Visakhapatnam</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
